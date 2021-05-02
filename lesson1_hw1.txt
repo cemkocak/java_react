@@ -1,0 +1,68 @@
+Data types are divided into two groups:
+
+Primitive data types		:includes byte, short, int, long, float, double, boolean and char.
+Non-primitive data types	:such as String, Arrays and Classes.
+
+
+Primitice Data Types:
+
+DATA TYPE	SIZE		DESCRIPTION
+
+byte		1 byte		Stores whole numbers from -128 to 127
+short		2 bytes		Stores whole numbers from -32,768 to 32,767
+int		4 bytes		Stores whole numbers from -2,147,483,648 to 2,147,483,647
+long		8 bytes		Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+float		4 bytes		Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+double		8 bytes		Stores fractional numbers. Sufficient for storing 15 decimal digits
+boolean		1 bit		Stores true or false values
+char		2 bytes		Stores a single character/letter or ASCII values
+
+Non-primitive data types:
+
+Non-primitive data types are called reference types because they refer to objects.
+The main difference between primitive and non-primitive data types are:
+
+-Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+-Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+-A primitive type has always a value, while non-primitive types can be null.
+-A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+-The size of a primitive type depends on the data type, while non-primitive types have all the same size.
+
+Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc.
+
+String: 
+Strings are defined as an array of characters. The difference between a character array and a string in Java is, the string is designed to hold a sequence of characters in a single variable whereas, a character array is a collection of separate char type entities.
+Unlike C/C++, Java strings are not terminated with a null character.
+Below is the basic syntax for declaring a string in Java programming language.
+
+Class: 
+A class is a user-defined blueprint or prototype from which objects are created.  It represents the set of properties or methods that are common to all objects of one type. In general, class declarations can include these components, in order: 
+1.Modifiers: A class can be public or has default access.
+2.Class name: The name should begin with a initial letter (capitalized by convention).
+3.Superclass(if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
+4.Interfaces(if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
+5.Body: The class body surrounded by braces, { }.
+
+Object:
+It is a basic unit of Object-Oriented Programming and represents the real-life entities.  A typical Java program creates many objects, which as you know, interact by invoking methods. An object consists of : 
+1.State: It is represented by attributes of an object. It also reflects the properties of an object.
+2.Behavior: It is represented by methods of an object. It also reflects the response of an object with other objects.
+3.Identity: It gives a unique name to an object and enables one object to interact with other objects.
+
+Interface:
+Like a class, an interface can have methods and variables, but the methods declared in an interface are by default abstract (only method signature, nobody).   
+-Interfaces specify what a class must do and not how. It is the blueprint of the class.
+-An Interface is about capabilities like a Player may be an interface and any class implementing Player must be able to (or must implement) move(). So it specifies a set of methods that the class has to implement.
+-If a class implements an interface and does not provide method bodies for all functions specified in the interface, then the class must be declared abstract.
+-A Java library example is, Comparator Interface. If a class implements this interface, then it can be used to sort a collection.
+
+Array:
+An array is a group of like-typed variables that are referred to by a common name. Arrays in Java work differently than they do in C/C++. The following are some important points about Java arrays. 
+In Java, all arrays are dynamically allocated.
+-Since arrays are objects in Java, we can find their length using member length. This is different from C/C++ where we find length using size.
+-A Java array variable can also be declared like other variables with [] after the data type.
+-The variables in the array are ordered and each has an index beginning from 0.
+-Java array can be also be used as a static field, a local variable or a method parameter.
+-The size of an array must be specified by an int value and not long or short.
+-The direct superclass of an array type is Object.
+-Every array type implements the interfaces Cloneable and java.io.Serializable.
