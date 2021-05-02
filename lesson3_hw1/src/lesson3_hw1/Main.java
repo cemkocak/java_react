@@ -17,17 +17,32 @@ public class Main {
 		loanUI.calculateLoan(new TeacherLoanManager());
 		loanUI.calculateLoan(new SoldierLoanManager());
 		*/
-		
+		/*
 		//38
 		//EmailLogger logger = new EmailLogger();
-		//logger.log("Log Mesajý");
+		//logger.log("Log Mesajï¿½");
 		
 		//BaseLogger[] loggers = new BaseLogger[]{new FileLogger(), new DatabaseLogger(), new EmailLogger(), new ConsoleLogger()};
 		//for (BaseLogger logger : loggers)
-		//	logger.log("Log Mesajý");
+		//	logger.log("Log Mesajï¿½");
 		
 		CustomerManager customerManager = new CustomerManager(new DatabaseLogger());
 		customerManager.add();
+		*/
+		
+		//39
+		BaseLoanManager[]  baseLoanManagers = new BaseLoanManager[] 
+														{
+															new TeacherLoanManager(),
+															new AgriculturalLoanManager(),
+															new StudentLoanManager()
+														};
+		
+		for(BaseLoanManager baseLoanManager : baseLoanManagers)
+		{
+			System.out.println(baseLoanManager.calculate(1000));
+		}
+			
 	}
 
 }
