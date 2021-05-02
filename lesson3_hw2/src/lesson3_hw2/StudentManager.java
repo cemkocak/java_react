@@ -4,17 +4,17 @@ public class StudentManager extends UserManager{
 	
 	public void add(Student student)
 	{
-		System.out.println("Öðrenci eklendi.");
+		System.out.println("Ã–ÄŸrenci eklendi.");
 	}
 	
 	public void remove(Student student)
 	{
-		System.out.println("Öðrenci silindi.");
+		System.out.println("Ã–ÄŸrenci silindi.");
 	}
 	
 	public void update(Student student)
 	{
-		System.out.println("Öðrenci güncellendi.");
+		System.out.println("Ã–ÄŸrenci gÃ¼ncellendi.");
 	}
 
 }

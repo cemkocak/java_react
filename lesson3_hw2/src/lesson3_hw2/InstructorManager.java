@@ -4,17 +4,17 @@ public class InstructorManager extends UserManager{
 	
 	public void add(Instructor instructor)
 	{
-		System.out.println("Eðitmen eklendi.");
+		System.out.println("EÄŸitmen eklendi.");
 	}
 	
 	public void remove(Instructor instructor)
 	{
-		System.out.println("Eðitmen silindi.");
+		System.out.println("EÄŸitmen silindi.");
 	}
 	
 	public void update(Instructor instructor)
 	{
-		System.out.println("Eðitmen güncellendi.");
+		System.out.println("EÄŸitmen gÃ¼ncellendi.");
 	}
 
 }
