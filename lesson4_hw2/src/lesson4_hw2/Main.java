@@ -22,10 +22,9 @@ public class Main {
 													"Engin",
 													"Demiroğ",
 													LocalDate.of(1985, 1, 6),
-													"tc kimlik no :)"));
+													"12313212312"));
 		System.out.println("@Starbucks\n");
-		 
-
+				
 	}
 
 }

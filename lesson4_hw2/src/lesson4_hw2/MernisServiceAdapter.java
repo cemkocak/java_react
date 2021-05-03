@@ -4,7 +4,7 @@ import java.rmi.RemoteException;
 import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
 
 
-public class MernisServiceAdapter implements ICustomernCheckService{
+public class MernisServiceAdapter implements ICustomerCheckService{
 
 	@Override
 	public boolean checkIfRealPerson(Customer customer) throws RemoteException {

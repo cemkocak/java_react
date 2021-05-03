@@ -4,9 +4,10 @@ import java.rmi.RemoteException;
 
 public class StarbucksCustomerManager extends BaseCustomerManager{
 	
-	private ICustomernCheckService customernCheckService;
+	private ICustomerCheckService customernCheckService;
+		
 	
-	public StarbucksCustomerManager(ICustomernCheckService customernCheckService)
+	public StarbucksCustomerManager(ICustomerCheckService customernCheckService)
 	{
 		this.customernCheckService = customernCheckService;
 	}

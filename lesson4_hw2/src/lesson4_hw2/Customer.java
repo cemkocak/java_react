@@ -2,7 +2,7 @@ package lesson4_hw2;
 
 import java.time.LocalDate;
 
-public class Customer implements ICustomerService{
+public class Customer {
 	
 	
 	private int 		id;
@@ -56,10 +56,5 @@ public class Customer implements ICustomerService{
 		this.nationalityId = nationalityId;
 	}
 	
-	@Override
-	public void saveDatabase(Customer customer) {
-		// TODO Auto-generated method stub
-		
-	}
-	
+
 }

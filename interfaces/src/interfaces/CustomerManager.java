@@ -14,7 +14,7 @@ public class CustomerManager {
 	
 	public void add(Customer customer) {
 		
-		System.out.println("Müþteri eklendi :" + customer.getFirstName());
+		System.out.println("Mï¿½ï¿½teri eklendi :" + customer.getFirstName());
 		
 		Utils.runLoggers(loggers, customer.getFirstName());
 		
@@ -22,7 +22,7 @@ public class CustomerManager {
 	
 	public void delete(Customer customer) {
 		
-		System.out.println("Müþteri silindi :" + customer.getFirstName());
+		System.out.println("MÃ¼ÅŸteri silindi :" + customer.getFirstName());
 
 		Utils.runLoggers(loggers, customer.getFirstName());
 		

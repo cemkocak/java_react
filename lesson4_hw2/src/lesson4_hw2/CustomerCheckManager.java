@@ -1,6 +1,6 @@
 package lesson4_hw2;
 
-public class CustomerCheckManager implements ICustomernCheckService{
+public class CustomerCheckManager implements ICustomerCheckService{
 
 	@Override
 	public boolean checkIfRealPerson(Customer customer) {
